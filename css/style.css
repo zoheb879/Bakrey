@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Protest+Strike&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Oswald:wght@200..700&family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Protest+Strike&display=swap');
+
+
+.s1 {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+  }
+
+  .s2 {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 60px;
+  }
+  .s3{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+  }
+  .s4{
+    position: fixed;
+    top: 0;
+    z-index: 99;
+ 
+  }
+  
+  
+#images{
+    background-image: url(../images/hero.jpg);
+    background-position: start;
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 80vh;
+    margin-top: 100px;
+}
+
+
+
+:root{
+    --bg-orange:#E88F2A ;
+}
+
+.text-orange{
+    color: #E88F2A;
+}
+.bg-orange{
+    background: var(--bg-orange);
+}
+
+i{
+    font-size: 50px;
+}
+
+.demo{
+    font-size: 30px;
+    color: #E88F2A;
+}
+.demo2{
+    background-image: url(../images/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media(max-width:768px){
+  /* .s4{
+      position: static;
+      z-index: 99;
+    } */
+    #images{
+      background-image: url(../images/hero.jpg);
+      background-position: start;
+      background-repeat: no-repeat;
+      background-size: auto;
+      height: fit-content;
+      margin-top: 100px;
+  }
+  }
+
+
+@media(max-width:430px){
+    /* .s4{
+        position: static;
+        z-index: 99;
+      } */
+      #images{
+        background-image: url(../images/hero.jpg);
+        background-position: start;
+        background-repeat: no-repeat;
+        background-size: auto;
+        height: fit-content;
+        margin-top: 100px;
+    }
+    }
+
+
+
+    @import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+.snip1262 {
+  font-family: 'Raleway', Arial, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.snip1262 * {
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s linear;
+  transition: all 0.35s linear;
+}
+.snip1262 li {
+  display: inline-block;
+  list-style: outside none none;
+  margin: 0.5em 1em;
+  overflow: hidden;
+}
+.snip1262 a {
+  padding: 0.3em 0.8em;
+  backface-visibility: hidden;
+  color: white;
+  display: block;
+  line-height: 2em;
+  padding: 0 1em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  -webkit-transform-origin: 0 50%;
+  -ms-transform-origin: 0 50%;
+  transform-origin: 0 50%;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+.snip1262 a:after {
+  -webkit-transition: all 0.35s linear;
+  transition: all 0.35s linear;
+  background-color: #c0392b;
+  color: transparent;
+  content: attr(data-hover);
+  left: 0;
+  line-height: 2em;
+  position: absolute;
+  bottom: 100%;
+  width: 100%;
+  opacity: 0.4;
+}
+.snip1262 li:hover a,
+.snip1262 li.current a {
+  -webkit-transform: rotateX(-90deg);
+  transform: rotateX(-90deg);
+  color: transparent;
+}
+.snip1262 li:hover a:after,
+.snip1262 li.current a:after {
+  opacity: 1;
+  color: #ffffff;
+  -webkit-transform: rotateX(90deg);
+  transform: rotateX(90deg);
+}
+
